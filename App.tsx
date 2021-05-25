@@ -12,7 +12,7 @@ const App = () => {
     <>
       <StatusBar />
       <SafeAreaView>
-        <SyncIndicator />
+        {/* <SyncIndicator /> */}
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           <Header onOpenCreator={() => setShowCreator(true)} />
           <Creator

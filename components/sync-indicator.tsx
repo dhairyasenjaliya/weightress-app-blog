@@ -7,9 +7,9 @@ const SyncIndicator = () => {
   const [syncState, setSyncState] = useState<string>('Syncing data...');
 
   useEffect(() => {
-    sync()
-      .then(() => setSyncState(''))
-      .catch(() => setSyncState('Sync failed!'));
+    // sync()
+    //   .then(() => setSyncState(''))
+    //   .catch(() => setSyncState('Sync failed!'));
   });
 
   if (!syncState) {
